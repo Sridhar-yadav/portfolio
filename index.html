@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of a Full Stack Developer and UI/UX Designer.">
+    <title>Sridhar Yadav | Portfolio</title>
+
+    <!-- Links the Google Fonts stylesheet for 'Outfit' and 'Inter' fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header element containing the navigation bar and logo -->
+    <header id="main-header">
+        <!-- Container div to limit width and center content -->
+        <div class="container header-content">
+            <!-- Anchor tag for the logo, linking to the top of the page (#) -->
+            <a href="#" class="logo">
+                <!-- Span for the first part of the logo text -->
+                <span class="logo-hl">Sridhar</span> Yadav.
+            </a>
+
+            <!-- Navigation element for site links -->
+            <nav class="main-nav">
+                <!-- Unordered list to structure navigation items -->
+                <ul>
+                    <!-- List item for 'About' link -->
+                    <li><a href="#hero" class="nav-link">About</a></li>
+                    <!-- List item for 'Skills' link -->
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <!-- List item for 'Projects' link -->
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <!-- List item for 'Certificates' link -->
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <!-- List item for 'Contact' link -->
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Button element to toggle between Light and Dark themes -->
+            <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <!-- SVG icon for the Sun (Light Mode indicator) -->
+                <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                <!-- SVG icon for the Moon (Dark Mode indicator) -->
+                <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+            </button>
+
+            <!-- Mobile Menu Toggle Button (Hamburger Menu) -->
+            <button class="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main content area of the page -->
+    <main>
+
+        <!-- Section for the Hero/Introduction area -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <!-- Text content wrapper for the Hero section -->
+                <div class="hero-text">
+                    <!-- Introductory sub-heading -->
+                    <p class="hero-subtitle">Hi, I am a</p>
+                    <!-- Main heading with typing effect target -->
+                    <h1 class="hero-title">
+                        <span class="typing-text">Lakdaram Sridhar Yadav</span>
+                    </h1>
+                    <!-- Description paragraph -->
+                    <p class="hero-description">
+                        Building digital experiences with pixel-perfect design and robust code.
+                        Specializing in UI Design and Modern Web Technologies.
+                    </p>
+                    <!-- Call to Action (CTA) buttons wrapper -->
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Visual content wrapper (Image or Abstract Art) -->
+                <div class="hero-visual">
+                    <div class="visual-circle"></div>
+                    <div class="visual-glass-card">
+                        <!-- Pseudo-code representation graphic -->
+                        <div class="code-snippet">
+                            <span class="code-line">const portfolio = {</span>
+                            <span class="code-line indent"> owner: "You",</span>
+                            <span class="code-line indent"> skills: ["Design", "Code"],</span>
+                            <span class="code-line">};</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section for About Me 
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        Placeholder for user image, generated via CSS/Divs for now
+                        <div class="placeholder-img"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>
+                            I design and code beautifully simple things, and I love what I do.
+                            With a passion for user-centric design and scalable architecture,
+                            I bridge the gap between aesthetics and functionality.
+                        </p>
+                        <ul class="stats-list">
+                            <li><strong>5+</strong> Years Experience</li>
+                            <li><strong>50+</strong> Projects Completed</li>
+                            <li><strong>100%</strong> Client Satisfaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Section for Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Skill Item: Frontend -->
+                    <div class="skill-card">
+                        <h3>Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript, React, Tailwind, Bootstrap</p>
+                    </div>
+                    <!-- Skill Item: Backend -->
+                    <div class="skill-card">
+                        <h3>Backend</h3>
+                        <p>Python, SQL, MongoDB</p>
+                    </div>
+                    <!-- Skill Item: Design -->
+                    <div class="skill-card">
+                        <h3>Design</h3>
+                        <p>Figma, UI/UX Principles</p>
+                    </div>
+                    <!-- Skill Item: AI,ML 
+                    <div class="skill-card">
+                        <h3>AI,ML</h3>
+                        <p>ChatGPT, OpenAI, LangChain,</p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Placeholder Sections for Projects and Contact to be fleshed out -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <h3>CampusGenius – Learning Platform</h3>
+                        <p>Built a scalable web-based learning platform with real-time features like note sharing,
+                            quizzes, and meeting scheduling. <br> Implemented role-based access (Faculty/Student) with
+                            secure JWT authentication</p>
+                        <p>Next.js, Django, MySQL, TailwindCSS</p>
+                        <a href="https://github.com/Sridhar-yadav/Learning-Platform-CampusGenius-.git"
+                            class="btn btn-secondary">Github Link</a>
+
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <h3>AI-Chatbot</h3>
+                        <p>Created an AI-powered chatbot capable of note summarization, doubt solving, and instant QA
+                            using OpenAI GPT.<br>
+                            Integrated the chatbot with Django backend and React frontend for real-time interaction.</p>
+                        <p>React.js, TailwindCSS, Django, OpenAI GPT API</p>
+                        <a href="https://github.com/Sridhar-yadav/AI-chat-bot.git" class="btn btn-secondary">Github
+                            Link</a>
+
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <h3>QR Code Scanner</h3>
+                        <p>Created a QR code scanner using React.js and TailwindCSS. <br> Integrated the scanner with
+                            Django backend for real-time interaction.</p>
+                        <p>React.js, TailwindCSS, Django</p>
+                        <a href="https://github.com/Sridhar-yadav/qr-code-scanner.git" class="btn btn-secondary">Github
+                            Link</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <div class="container">
+                <h2 class="section-title">Certificates</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Python Zero to Hero</h3>
+                        <p>Learn Python programming from scratch to advanced level.</p>
+                        <p><b>Guvi</b></p>
+                        <a href="https://www.guvi.in/share-certificate/77x0qHy51D6981l20O"
+                            class="btn btn-secondary">View Credential</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Web Development Bootcamp L</h3>
+                        <p>Comprehensive bootcamp covering Html, CSS, JavaScript, Bootstrap.</p>
+                        <p><b>Udemy</b></p>
+                        <a href="https://www.udemy.com/certificate/UC-278f1f36-57e4-42ca-8a64-73f995352c08/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+                            class="btn btn-secondary">View Credential</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Figma Course</h3>
+                        <p>Principles of user interface design, wireframing, and prototyping.</p>
+                        <p><b>Udemy</b></p>
+                        <a href="https://www.udemy.com/certificate/UC-58691d29-5a76-48bd-b4b2-5f69b19a381f/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+                            class="btn btn-secondary">View Credential</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section alt-bg">
+            <p class="contact-description">For any inquiries or questions, please feel free to <b>contact me</b>. I'm
+                here to
+                help!</p>
+            <div class="container contact-container">
+                <!-- Left Column: Contact Info -->
+                <div class="contact-form-card">
+                    <form action="#" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" class="form-textarea" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Right Column: Contact Info -->
+                <div class="contact-info-card">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Get In Touch</h2>
+                    <p class="contact-description">I'm always interested in new opportunities and collaborations. Feel
+                        free to reach out!</p>
+
+                    <div class="contact-details">
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <!-- Email Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Email</h4>
+                                <a href="mailto:sridharyadav2674@gmail.com">sridharyadav2674@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <!-- Code Icon for GitHub -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                </svg>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/Sridhar-yadav" target="_blank">github.com/Sridhar-yadav</a>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <!-- User Icon for LinkedIn -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/l-sridhar-yadav-s212398/" target="_blank">View
+                                    Profile</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Portfolio. Lakdaram Sridhar Yadav &hearts;.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
