@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Select the toggle button element by its ID
     const themeToggleBtn = document.getElementById('theme-toggle');
-
+ 
     // Select the root HTML element to modify attributes
     const htmlElement = document.documentElement;
 
