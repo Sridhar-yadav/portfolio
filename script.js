@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Select the toggle button element by its ID
     const themeToggleBtn = document.getElementById('theme-toggle');
- 
+
     // Select the root HTML element to modify attributes
     const htmlElement = document.documentElement;
 
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
        ========================================================================== */
 
     const typingElement = document.querySelector('.typing-text');
-    const roles = ["Lakdaram Sridhar Yadav", "Frontend Developer"];
+    const roles = ["Lakdaram Sridhar Yadav", "Web Developer"];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
