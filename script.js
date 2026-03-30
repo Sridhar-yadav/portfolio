@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
        ========================================================================== */
 
     const typingElement = document.querySelector('.typing-text');
-    const roles = ["Lakdaram Sridhar Yadav", "Web Developer"];
+    const roles = ["Lakdaram Sridhar Yadav", "Full-Stack Developer"];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
